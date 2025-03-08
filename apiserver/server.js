@@ -21,7 +21,7 @@ app.use(cors());
 // 解析JSON请求体
 app.use(express.json());
 
-const REPLACE_TEXT = "127.0.0.1"; // 你的服务器IP地址
+const REPLACE_TEXT = "yourip"; // 你的服务器IP地址
 
 // Json路由
 app.get('/api/v2/Covers/:tid(*)', async (req, res) => {
